@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Resume - Start Bootstrap Theme
+        title Bryan Krauss | Portfolio Website
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -39,7 +39,7 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
+                        a.nav-link.js-scroll-trigger(href='#education') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
@@ -96,24 +96,64 @@ html(lang='en')
             // Education
             section#education.resume-section
                 .resume-section-content
-                    h2.mb-5 Education
+                    h2.mb-5 Projects
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
-                        .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            h3.mb-0 Happy-Tweet | Twitter Showacse Application
+                            .subheading.mb-3 A full-stack application made with React, C# with ASP.Net Core, and styled using Bootstrap.
+                            div 
+                            p Going into this project I knew there would be a lot of information to research. This was the first time I had attempted to create my own custom API and make calls through my own server to Twitters own API. To begin I made up simple wireframe mockups to give me a starting point and base model to refer to when I got stuck. After completing some mockups in Sketch and having a basic app outline, I began creating my server-side functionality. Through some excellent online resources and asking questions of my mentor and tutor, I was able to get the backend up and functioning. Now that the backend had something, it was time to tackle the client. Another first was making a single page app, with page routing, to accomodate a Home, Search, and Random Tweet pages. And now finally to connect it all together into one seamless experience. Wow! What a feeling that was seeing information being passed back and forth from the client to the backend. With my minimum viable product up and running it was now time to add styling. Having a resource like Unplash is an invaluable tool to get great images. My home page image was critical in selecting the colours and fonts to really tie everything together into my first successful full-stack application.
+                        .flex-shrink-0 
+                            span 
+                            img.img-fluid.ml-3(src='assets/img/happy-tweet.png')
+                    .d-flex.flex-column
+                            a(href='https://happy-tweet.azurewebsites.net/') Visit live site   
+                            a(href='https://github.com/BryanGK/twitter_api') See the code on GitHub  
+                    br
+                    br
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
-                        .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            h3.mb-0 Battleship | C# Console Application
+                            .subheading.mb-3 A simple console app created using C# to get familiarized with C# and .NET
+                            div 
+                            p Going into this project I knew there would be a lot of information to research. This was the first time I had attempted to create my own custom API and make calls through my own server. To begin I made up simple wireframe mockups to give me a starting point and base model to refer to when I got stuck. After completing some mockups in Sketch and having a basic app outline, I began creating my server-side functionality. Through some excellent online resources and asking questions of my mentor and tutor, I was able to get the backend up and functioning. Now that the backend had something, it was time to tackle the client. Another first was making a single page app, with page routing, to accomodate a Home, Search, and Random Tweet pages. And now finally to connect it all together into one seamless experience. Wow! What a feeling that was seeing information being passed back and forth from the client to the backend. With my minimum viable product up and running it was now time to add styling. Having a resource like Unplash is an invaluable tool to get great images. My home page image was critical in selecting the colours and fonts to really tie everything together into my first successful full-stack application.
+                        .flex-shrink-0 
+                            span 
+                            img.img-fluid.ml-3(src='assets/img/battleship.gif')
+                    .d-flex.flex-column
+                            a(href='https://github.com/BryanGK/battleship') See the code on GitHub  
+                    br
+                    br
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Star Wars API | A ReactJS Web Application
+                            .subheading.mb-3 A web app making use of the Star Wars swapi.dev API
+                            div 
+                            p Going into this project I knew there would be a lot of information to research. This was the first time I had attempted to create my own custom API and make calls through my own server. To begin I made up simple wireframe mockups to give me a starting point and base model to refer to when I got stuck. After completing some mockups in Sketch and having a basic app outline, I began creating my server-side functionality. Through some excellent online resources and asking questions of my mentor and tutor, I was able to get the backend up and functioning. Now that the backend had something, it was time to tackle the client. Another first was making a single page app, with page routing, to accomodate a Home, Search, and Random Tweet pages. And now finally to connect it all together into one seamless experience. Wow! What a feeling that was seeing information being passed back and forth from the client to the backend. With my minimum viable product up and running it was now time to add styling. Having a resource like Unplash is an invaluable tool to get great images. My home page image was critical in selecting the colours and fonts to really tie everything together into my first successful full-stack application.
+                        .flex-shrink-0 
+                            span 
+                            img.img-fluid.ml-3(src='assets/img/StarwarsAPI.png')
+                    .d-flex.flex-column
+                            a(href='https://damp-castle-81042.herokuapp.com/') Visit live site   
+                            a(href='https://github.com/BryanGK/starwars_api') See the code on GitHub  
+                    br
+                    br
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Snake Game | Javascript and HTML Canvas Application
+                            .subheading.mb-3 An enjoyable game created to practice object oriented programming principles
+                            div 
+                            p Going into this project I knew there would be a lot of information to research. This was the first time I had attempted to create my own custom API and make calls through my own server. To begin I made up simple wireframe mockups to give me a starting point and base model to refer to when I got stuck. After completing some mockups in Sketch and having a basic app outline, I began creating my server-side functionality. Through some excellent online resources and asking questions of my mentor and tutor, I was able to get the backend up and functioning. Now that the backend had something, it was time to tackle the client. Another first was making a single page app, with page routing, to accomodate a Home, Search, and Random Tweet pages. And now finally to connect it all together into one seamless experience. Wow! What a feeling that was seeing information being passed back and forth from the client to the backend. With my minimum viable product up and running it was now time to add styling. Having a resource like Unplash is an invaluable tool to get great images. My home page image was critical in selecting the colours and fonts to really tie everything together into my first successful full-stack application.
+                        .flex-shrink-0 
+                            span 
+                            img.img-fluid.ml-3(src='assets/img/snake-game.gif')
+                    .d-flex.flex-column
+                            a(href='https://bryangk.github.io/snake_game/') Visit live site   
+                            a(href='https://github.com/BryanGK/snake_game') See the code on GitHub  
+                    br
+                    br
 
             hr.m-0
 
