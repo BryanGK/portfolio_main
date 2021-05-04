@@ -28,8 +28,6 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
             </div>
         </nav>
@@ -47,6 +45,7 @@
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/bryan-krauss-556b3a200/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/BryanGK/"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://twitter.com/BryanGK12"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </section>
@@ -87,10 +86,15 @@
                             <img class="img-fluid ml-3" src="assets/img/happy-tweet.png" />
                         </div>
                     </div>
-                    <div class="d-flex flex-column">
-                        <a href="https://happy-tweet.azurewebsites.net/">Visit live site</a>
-                        <a href="https://github.com/BryanGK/twitter_api">See the code on GitHub</a>
-                    </div>
+                    <div class="d-flex flex-column"><div class="subheading mb-3">Programming Languages & Tools</div></div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><img src="assets/img/c-sharp-logo.svg" /></li>
+                        <li class="list-inline-item"><img src="assets/img/dotnet_grey.svg" /></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                    </ul>
+                    <p><a href="https://happy-tweet.azurewebsites.net/">Visit live site</a></p>
+                    <p><a href="https://github.com/BryanGK/twitter_api">See the code on GitHub</a></p>
                     <br />
                     <br />
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -99,8 +103,8 @@
                             <div class="subheading mb-3">A simple console app created using C# to get familiarized with C# and .NET</div>
                             <div></div>
                             <p>
-                                Moving head first into C# and to the classes and object-oriented was a big shift in thinking from Javascript. The best way forward was through, so I bought a big book and grabbed an online tutorial and began learning. And just when I was beginning to feel comfortable Javascript, I had to start all over again. No problem though, I enjoy learning and relish the idea of picking up new languages. Learning C# and seeing how much it can do is awe-inspiring to me. I had a to really think about how I wanted to structure my program. Using a 2D array I managed to display a game grid with numbers to indicated columns and rows. Creating the game logic was where things got difficult. I had to devise a way of keeping track of all the different variables like hit count, shot count, and the battleship location. Through encapsulation, and by singling out a Player class, a Battleship class, and a Display class, I was able to separate concerns and make the program
-                                extensible in the future. Upon completing this app I was primed in C# and ready for more opportunity to use my newfound knowledge.
+                                Moving head first into C# and to the classes and object-oriented programming was a big shift in thinking from Javascript. The best way forward was through, so I bought a big book and grabbed an online tutorial and began learning. And just when I was beginning to feel comfortable Javascript, I had to start all over again. No problem though, I enjoy learning and relish the idea of picking up new languages. Learning C# and seeing how much it can do is awe-inspiring to me. I had a to really think about how I wanted to structure my program. Using a 2D array I managed to display a game grid with numbers to indicated columns and rows. Creating the game logic was where things got difficult. I had to devise a way of keeping track of all the different variables like hit count, shot count, and the battleship location. Through encapsulation, and by singling out a Player class, a Battleship class, and a Display class, I was able to separate concerns and make the
+                                program extensible in the future. Upon completing this app I was primed in C# and ready for more opportunity to use my newfound knowledge.
                             </p>
                         </div>
                         <div class="flex-shrink-0">
@@ -117,8 +121,8 @@
                             <div class="subheading mb-3">A web app making use of the Star Wars swapi.dev API through AJAX requests</div>
                             <div></div>
                             <p>
-                                Going into this project I knew there would be a lot of information to research. This was the first time I had attempted to create my own custom API and make calls through my own server. To begin I made up simple wireframe mockups to give me a starting point and base model to refer to when I got stuck. After completing some mockups in Sketch and having a basic app outline, I began creating my server-side functionality. Through some excellent online resources and asking questions of my mentor and tutor, I was able to get the backend up and functioning. Now that the backend had something, it was time to tackle the client. Another first was making a single page app, with page routing, to accomodate a Home, Search, and Random Tweet pages. And now finally to connect it all together into one seamless experience. Wow! What a feeling that was seeing information being passed back and forth from the client to the backend. With my minimum viable product up and
-                                running it was now time to add styling. Having a resource like Unplash is an invaluable tool to get great images. My home page image was critical in selecting the colours and fonts to really tie everything together into my first successful full-stack application.
+                                This was at the time only the second application I had built using React. Getting my head wrapped around a front end framework like React was challenging to say the least. On my first app using React I used class based components, setting state that way. However on this app I really wanted to make use of hooks to set my state, I felt this was a crucial part of React that needed to be learned. Another layer of complexity added to this project was making HTTP requests to an external API. I decided to make use of the axios library to make life easier. The Star Wars API, on some results, will return only another API endpoint. The task of making additional requests and the awaiting the data before setting state was quite difficult to figure out at first. To get through and make the proper calls I really had to knuckle down and cement in the concepts of async/await and how promises work. With those conepts in action, it was time to style my page using
+                                Bootstrap. A wonderful library of components to be added without much trouble. Having dynamic pagination was a cool feature that I knew I wanted to implement. What a great learning experience this app was, it was exciting to feel like a real developer after completion.
                             </p>
                         </div>
                         <div class="flex-shrink-0">
@@ -165,93 +169,36 @@
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
                         <li class="list-inline-item"><i class="fab fa-react"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-database"></i></li>
+                        <li class="list-inline-item"><img src="assets/img/c-sharp-logo.svg" /></li>
+                        <li class="list-inline-item"><img src="assets/img/dotnet_grey.svg" /></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    <div class="subheading mb-3">Additional Skills</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
+                            Strong Team Member and Leader
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
+                            Adept Learning Skills
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
+                            Refined Problem Solving
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
+                            Clean Code Priciples
                         </li>
                     </ul>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
