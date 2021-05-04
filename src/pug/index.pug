@@ -39,9 +39,9 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Projects
+                        a.nav-link.js-scroll-trigger(href='#skills') Education & Skills
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                        a.nav-link.js-scroll-trigger(href='#education') Projects
                     //- li.nav-item
                     //-     a.nav-link.js-scroll-trigger(href='#interests') Interests
                     //- li.nav-item
@@ -63,11 +63,11 @@ html(lang='en')
                     p.lead.mb-5
                         | A self-taught software developer looking to bring my experience as a problem solver and team leader to a new career. Learning to code has invigorated my spirit of learning and discovery, energy that will carry me ahead to a successful career in software development. I hope to find a place where I can continue my personal growth, while at the same time providing a meaningful contribution to the team.
                     .social-icons
-                        a.social-icon(href='https://www.linkedin.com/in/bryan-krauss-556b3a200/')
+                        a.social-icon(href="/", onclick="window.open('https://www.linkedin.com/in/bryan-krauss-556b3a200/', '_blank');")
                             i.fab.fa-linkedin-in
-                        a.social-icon(href='https://github.com/BryanGK/')
+                        a.social-icon(href="/", onclick="window.open('https://github.com/BryanGK/', '_blank');")
                             i.fab.fa-github
-                        a.social-icon(href='https://twitter.com/BryanGK12')
+                        a.social-icon(href="/", onclick="window.open('https://twitter.com/BryanGK12', '_blank');")
                             i.fab.fa-twitter
                         //- a.social-icon(href='#')
                         //-     i.fab.fa-facebook-f
@@ -92,6 +92,64 @@ html(lang='en')
                             p 
                                 | Becoming a self-taught developer is very tough. The lack of structure and direction makes this a tricky proposition. I decided that if I really wanted this that I would need some help. That's when I discovered the Software Developer Mastermind program. In this program you are pushed beyond your comfrort zone and made to build projects that get progressively more difficult and complex. Building projects has skyrocketed my skills to the next level, giving me the confidence I need to get ahead. I am so excited for where this career will take me in the future, there is no limit.
 
+
+            hr.m-0
+
+
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+                    .subheading.mb-3 Software Development Mastermind Program
+                    p.mb-5 The Software Development Mastermind program is a rigorous, hands-on mentorship program I attended for 16 weeks.  The program simulates a work environment by focusing on building real-world projects under deadlines.  There is constant feedback and coaching throughout the process that has helped to refine and enhance my programming skills.
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-npm
+                        li.list-inline-item
+                            i.fab.fa-bootstrap
+                        li.list-inline-item
+                            i.fas.fa-database
+                        li.list-inline-item
+                            i.fab.fa-github
+                        li.list-inline-item
+                            img(src='assets/img/c-sharp-logo.svg')
+                        li.list-inline-item
+                            img(src='assets/img/dotnet_grey.svg')
+                        li.list-inline-item
+                            img(src='assets/img/azure.svg')
+                        li.list-inline-item
+                            img(src='assets/img/heroku.svg')
+                    .subheading.mb-3 Additional Skills
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Strong Team Member and Leader
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Adept Learning Skills
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Refined Problem Solving
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Clean Code Priciples
 
             hr.m-0
 
@@ -204,58 +262,6 @@ html(lang='en')
 
             hr.m-0
 
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-npm
-                        li.list-inline-item
-                            i.fab.fa-bootstrap
-                        li.list-inline-item
-                            i.fas.fa-database
-                        li.list-inline-item
-                            i.fab.fa-github
-                        li.list-inline-item
-                            img(src='assets/img/c-sharp-logo.svg')
-                        li.list-inline-item
-                            img(src='assets/img/dotnet_grey.svg')
-                        li.list-inline-item
-                            img(src='assets/img/azure.svg')
-                        li.list-inline-item
-                            img(src='assets/img/heroku.svg')
-                    .subheading.mb-3 Additional Skills
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Strong Team Member and Leader
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Adept Learning Skills
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Refined Problem Solving
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Clean Code Priciples
-
-            hr.m-0
 
             //- // Interests
             //- section#interests.resume-section
