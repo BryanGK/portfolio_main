@@ -42,8 +42,8 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#skills') Education & Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Projects
-                    //- li.nav-item
-                    //-     a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Contact
                     //- li.nav-item
                     //-     a.nav-link.js-scroll-trigger(href='#awards') Awards
 
@@ -69,8 +69,9 @@ html(lang='en')
                             i.fab.fa-github
                         a.social-icon(href="/", onclick="window.open('https://twitter.com/BryanGK12', '_blank');")
                             i.fab.fa-twitter
-                        //- a.social-icon(href='#')
-                        //-     i.fab.fa-facebook-f
+                        a.social-icon(href="mailto:GETSRIDNOBOTSgmailNOSPAMcom" onclick = "this.href=this.href.replace(/NOBOTS/,'@').replace(/NOSPAM/,'.').replace(/GETSRID/,'bryangordonkrauss')")
+                            i.fas.fa-at
+                        
 
             hr.m-0
 
@@ -263,16 +264,19 @@ html(lang='en')
             hr.m-0
 
 
-            //- // Interests
-            //- section#interests.resume-section
-            //-     .resume-section-content
-            //-         h2.mb-5 Interests
-            //-         p
-            //-             | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-            //-         p.mb-0
-            //-             | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
-
-            //- hr.m-0
+            // Interests
+            section#interests.resume-section
+                h2.mb-5 Contact Me
+                    .subheading.mb-3 Please drop me a line through these sources.
+                    .social-icons
+                        a.social-icon(href="/", onclick="window.open('https://www.linkedin.com/in/bryan-krauss-556b3a200/', '_blank');")
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href="/", onclick="window.open('https://github.com/BryanGK/', '_blank');")
+                            i.fab.fa-github
+                        a.social-icon(href="/", onclick="window.open('https://twitter.com/BryanGK12', '_blank');")
+                            i.fab.fa-twitter
+                        a.social-icon(href="mailto:GETSRIDNOBOTSgmailNOSPAMcom" onclick = "this.href=this.href.replace(/NOBOTS/,'@').replace(/NOSPAM/,'.').replace(/GETSRID/,'bryangordonkrauss')")
+                            i.fas.fa-at
 
             //- // Awards
             //- section#awards.resume-section
@@ -327,3 +331,6 @@ html(lang='en')
 
         // Core theme JS
         script(src='js/scripts.js')
+
+        
+
